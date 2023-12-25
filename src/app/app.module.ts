@@ -18,7 +18,6 @@ import { RegisterComponent } from './user/login/register/register.component';
 import { ViewServiceComponent } from './admin-panel/view-service/view-service.component';
 import { EditServiceComponent } from './admin-panel/edit-service/edit-service.component';
 import { ToastrModule } from 'ngx-toastr';
-import {ScrollingModule} from '@angular/cdk/scrolling';
 import {CdkTableModule} from '@angular/cdk/table';
 import { MatAutocompleteModule } from '@angular/material/autocomplete';
 import { MatTableModule } from '@angular/material/table';
