@@ -1,0 +1,87 @@
+.horizontal-timeline .items {
+    border-top: 3px solid #e9ecef;
+    margin-left: 200px;
+    margin-top: 100px;
+  }
+  
+  .horizontal-timeline .items .items-list {
+    display: block;
+    position: relative;
+    text-align: center;
+    padding-top: 70px;
+    margin-right: 0;
+  }
+  
+  .horizontal-timeline .items .items-list:before {
+    content: "";
+    position: absolute;
+    height: 36px;
+    border-right: 2px dashed #dee2e6;
+    top: 0;
+  }
+  
+  .horizontal-timeline .items .items-list .event-date {
+    position: absolute;
+    top: 36px;
+    left: 0;
+    right: 0;
+    width: 75px;
+    margin: 0 auto;
+    font-size: 0.9rem;
+    padding-top: 8px;
+  }
+  
+  @media (min-width: 1140px) {
+    .horizontal-timeline .items .items-list {
+      display: inline-block;
+      width: 24%;
+      padding-top: 45px;
+    }
+  
+    .horizontal-timeline .items .items-list .event-date {
+      top: -40px;
+    }
+  }
+  body{
+    background-color: black;
+    position: fixed;
+    width: -webkit-fill-available;
+
+  }
+  .badge{
+    width: 200px !important;
+  }
+  .image{
+    width: 200px;
+  }
+  .btn{
+    margin-left: 314px;
+  }
+
+  
+  .blink {
+    animation: blink 1s infinite; /* You can adjust the duration as needed */
+  }
+  
+  @keyframes blink {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+.card{
+  width: 300px;
+  margin-top: 100px;
+  margin-left: 529px;
+}
+.card-body{
+  background-color: yellow;
+}
+.navbar{
+  background-color: red !important;
+}

@@ -1,0 +1,60 @@
+<body>
+<app-header></app-header>
+  <div class="card">
+    <div class="card-body">
+     Expected Delivery Date: Tomorrow
+    </div>
+  </div>
+  <div class="container-fluid py-5">
+
+    <div class="row">
+      <div class="col-lg-12">
+
+        <div class="horizontal-timeline">
+
+          <ul class="list-inline items">
+            <li class="list-inline-item items-list">
+              <div class="px-4">
+                <div class="event-date badge bg-info" id="ready" [ngClass]="{'blink': shouldBlink}">Ready for service
+                </div>
+                <img id="readyForService" class="image" src="assets\images\pngwing.com.png" />
+                <!-- <div>
+                      <a href="#" class="btn btn-primary btn-sm">Read more</a>
+                    </div> -->
+              </div>
+            </li>
+            <li class="list-inline-item items-list">
+              <div class="px-4">
+                <div class="event-date badge bg-success">Service in progress</div>
+                <!-- <h5 class="pt-2">Event Two</h5>
+                    <p class="text-muted">Everyone realizes why a new common language one could refuse translators.
+                    </p> -->
+                <img class="image" src="assets\images\pngwing.com.png">
+                <!-- <div>
+                      <a href="#" class="btn btn-primary btn-sm">Read more</a>
+                    </div> -->
+              </div>
+            </li>
+            <li class="list-inline-item items-list">
+              <div class="px-4">
+                <div class="event-date badge bg-danger">Ready for delivery</div>
+                <img class="image" src="assets\images\pngwing.com.png">
+                <!-- <div>
+                      <a href="#" class="btn btn-primary btn-sm">Read more</a>
+                    </div> -->
+              </div>
+            </li>
+          </ul>
+
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+  <div class="btn">
+    <button (click)="toggleBlink(true)">Start Blinking</button>
+    <button (click)="toggleBlink(false)">Stop Blinking</button>
+  </div>
+  
+</body>

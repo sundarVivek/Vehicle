@@ -1,0 +1,67 @@
+body {
+    width: -webkit-fill-available;
+    height: 1000px;
+    background-color: black;
+    position: fixed;
+
+    // margin: auto 10px;
+    // width: auto;
+    // // height: 1000px;
+    // background-color: black;
+    // position: static;
+    // height: fit-content;
+}
+
+.table {
+    margin-top: 30px;
+}
+
+.table-head {
+    background-color: red;
+}
+
+tr {
+    margin-left: 20px;
+}
+
+td {
+  
+    padding-top: 30px;
+    color: white;
+}
+
+.badge {
+    background-color: yellow;
+}
+
+.container {
+    display: inline-flex;
+}
+
+.navbar {
+    background-color: red !important;
+}
+
+th {
+    width: 400px;
+    padding-left: 20px;
+    color: white;
+    // border-bottom: 1px solid white;
+}
+
+table {
+    width: 400px;
+    border: 1px solid grey;
+    margin-left: 514px;
+    box-shadow: 1px -1px 14px grey;
+}
+
+.table{
+    --bs-table-bg:none var(--bs-body-bg);
+}
+.status{
+    background-color: red;
+}
+.statusContainer{
+    margin-top: 30px;
+}
